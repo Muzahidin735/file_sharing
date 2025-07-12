@@ -13,13 +13,13 @@
   Stores user and file metadata efficiently.
 
 🛠️**Tech Stack** \
-• **FastAPI (Python web framework)**\
+• **FastAPI (Python web framework)**
 
-• **PostgreSQL (Relational database)**\
+• **PostgreSQL (Relational database)**
 
-• **SQLAlchemy (ORM)**\
+• **SQLAlchemy (ORM)**
 
-• **JWT (Authentication)**\
+• **JWT (Authentication)**
 
 • **SMTP/Email Service (Email verification)**
 
