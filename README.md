@@ -19,6 +19,17 @@
 • **JWT (Authentication)**\
 • **SMTP/Email Service (Email verification)**
 
+| Method | Endpoint                    | Description                       |
+|--------|-----------------------------|-----------------------------------|
+| POST   | `/signup`                   | Register new user                 |
+| POST   | `/login`                    | User login, returns JWT           |
+| POST   | `/verify-email`             | Verify email with token           |
+| POST   | `/upload`                   | Upload a file                     |
+| GET    | `/files`                    | List user's uploaded files        |
+| GET    | `/download/{file_id}`       | Get secure download link          |
+| GET    | `/secure-download/{token}`  | Download file via secure link     |
+
+
 📖**API Endpoints**\
 **Methods        Endpoint                    Description**\
 POST            //signup                      Register new user\
