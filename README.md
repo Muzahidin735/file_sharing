@@ -19,8 +19,14 @@
 • **JWT (Authentication)**\
 • **SMTP/Email Service (Email verification)**
 
+📦 **Getting Started**
+ Prerequisites
+ • Python 3.8+
+ • PostgreSQL
 
-📖**API Endpoints**\
+
+(Optional) Docker & Docker Compose
+📖**API Endpoints**
 
 | Method | Endpoint                    | Description                       |
 |--------|-----------------------------|-----------------------------------|
@@ -31,5 +37,34 @@
 | GET    | `/files`                    | List user's uploaded files        |
 | GET    | `/download/{file_id}`       | Get secure download link          |
 | GET    | `/secure-download/{token}`  | Download file via secure link     |
+
+🔑 **Usage Guide**
+**Sign Up**
+• Register with your email and password via /signup.
+
+**Email Verification**
+• Click the verification link sent to your email to activate your account.
+
+**Login**
+• Obtain a JWT token via /login for authenticated requests.
+
+**Upload Files**
+• Use /upload with your JWT token to upload files.
+
+**List Files**
+• Retrieve your uploaded files from /files.
+
+**Download Files**
+• Request a download link via /download/{file_id} and use the provided secure link to download.
+
+
+🛡️ **Security**
+• Passwords are hashed before storage.
+
+• JWT tokens secure all authenticated endpoints.
+
+• Download links are time-limited and single-use.
+
+• Input validation and error handling implemented.
 
 
