@@ -1,6 +1,6 @@
 ## A REST API built with FastAPI and PostgreSQL that enables secure email registration, email verification, file uploads, and secure file download using secure link.
 
-🚀**Features**/
+🚀**Features**\
 • **User Registration & Login.**\
   Secure user authentication with hashed passwords and JWT tokens.\
 • **Email Verification.**\
@@ -25,7 +25,7 @@
 
 
 
-📦 **Getting Started**
+📦 **Getting Started**\
  Prerequisites
  • Python 3.8+
  • PostgreSQL
@@ -46,7 +46,7 @@
 
 
 
-🔑 **Usage Guide**
+🔑 **Usage Guide**\
 **Sign Up**
 • Register with your email and password via /signup.
 
@@ -68,7 +68,7 @@
 
 
 
-🛡️ **Security**
+🛡️ **Security**\
 • Passwords are hashed before storage.
 
 • JWT tokens secure all authenticated endpoints.
