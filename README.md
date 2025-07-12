@@ -14,10 +14,16 @@
 
 🛠️**Tech Stack** \
 • **FastAPI (Python web framework)**\
+
 • **PostgreSQL (Relational database)**\
+
 • **SQLAlchemy (ORM)**\
+
 • **JWT (Authentication)**\
+
 • **SMTP/Email Service (Email verification)**
+
+
 
 📦 **Getting Started**
  Prerequisites
@@ -25,7 +31,7 @@
  • PostgreSQL
 
 
-(Optional) Docker & Docker Compose
+
 📖**API Endpoints**
 
 | Method | Endpoint                    | Description                       |
@@ -37,6 +43,8 @@
 | GET    | `/files`                    | List user's uploaded files        |
 | GET    | `/download/{file_id}`       | Get secure download link          |
 | GET    | `/secure-download/{token}`  | Download file via secure link     |
+
+
 
 🔑 **Usage Guide**
 **Sign Up**
@@ -56,6 +64,8 @@
 
 **Download Files**
 • Request a download link via /download/{file_id} and use the provided secure link to download.
+
+
 
 
 🛡️ **Security**
